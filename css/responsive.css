@@ -1,0 +1,321 @@
+/*// X-Small devices (portrait phones, less than 576px)*/
+/*// No media query for `xs` since this is the default in Bootstrap*/
+
+@media (min-width: 320px) and (max-width: 575px){
+
+/*navigation part responsive code start*/
+
+.navbar-nav{
+	margin-top: 10px;
+}
+.navbar-nav .nav-item .nav-link{
+    margin: 2px 0;
+    padding: 5px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: gainsboro;
+	color: black;
+
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_content h1{
+	font-size: 25px;
+	margin-top: 80px;
+}
+
+/*banner part responsive code end*/
+
+/*enterprise part responsive code start*/
+
+.other_left{
+	margin-left: 20px;
+}
+.other_left h1{
+	font-size: 25px;
+}
+.other_left p{
+	font-size: 15px;
+}
+.other_icon{
+	margin-left: 15px;
+}
+.other_icon i{
+    display: list-item;
+    margin-bottom:100px;
+}
+.xsm_responsive{
+	margin-top: -250px;
+}
+.mobile_display{
+	display: none;
+}
+.other_btn{
+	margin: 20px 0 40px 15px;
+}
+
+/*enterprise part responsive code end*/
+
+/*portfolio part responsive code start*/
+
+.port_image{
+	display: none;
+}
+
+/*portfolio part responsive code end*/
+
+/*about part responsive code start*/
+
+.about_image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*about part responsive code end*/
+
+/*team part responsive code start*/
+
+.team_icon{
+	margin: 20px 0;
+}
+
+/*team part responsive code end*/
+
+/*contact part responsive code start*/
+
+.contact_icon i{
+	display: flex;
+	margin-left: 20px;
+}
+.contact_content{
+	margin: -120px 0 0 50px;
+}
+.contact_right input{
+	width: 300px;
+}
+.contact_right textarea{
+	width: 300px;
+}
+
+/*contact part responsive code end*/
+
+
+}
+
+/*// Small devices (landscape phones, 576px and up)*/
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+/*navigation part responsive code start*/
+
+.navbar-nav {
+	margin-top: 15px;
+}
+.navbar-nav .nav-item .nav-link{
+	margin: 2px 0;
+	padding: 5px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: steelblue;
+	color: white;
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_content h1{
+	margin-top: 90px;
+}
+
+/*banner part responsive code end*/
+
+/*enterprise part responsive code start*/
+
+.other_btn button{
+	margin: 0 0 80px 0;
+}
+
+/*enterprise part responsive code end*/
+
+/*about part responsive code start*/
+
+.about_image{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/*about part responsive code end*/
+
+/*team part responsive code start*/
+
+.team_icon{
+	margin: 20px 0;
+}
+
+/*team part responsive code end*/
+
+}
+
+/*// Medium devices (tablets, 768px and up)*/
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+/*navigation part responsive code start*/
+
+.navbar-nav {
+	margin-top: 15px;
+}
+.navbar-nav .nav-item .nav-link{
+	margin: 2px 0;
+	padding: 5px 0;
+	text-align: center;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	background-color: sienna;
+}
+
+/*navigation part responsive code end*/
+
+/*banner part responsive code start*/
+
+.banner_content h1{
+	margin-top: 90px;
+}
+
+/*banner part responsive code end*/
+
+/*other enterprise part responsive code start*/
+
+.other_left{
+	margin-left: 20px;
+}
+.other_icon{
+	margin-left: 20px;
+}
+.xsm_responsive{
+	margin:-200px -50px 0 -60px;
+}
+.other_con{
+	margin:0 -40px 0 60px;
+}
+.right_con{
+	margin:-200px -50px 0 70px;
+}
+.other_content p{
+	font-size: 12px;
+}
+.other_btn{
+	margin: 20px 0 20px 50px;
+}
+.other_right img{
+	height: 530px;
+}
+
+/*other enterprise part responsive code end*/
+
+/*portfolio part responsive code start*/
+
+.portfolio_content p{
+	font-size: 10px;
+}
+.port_image{
+	margin-left: -90px;
+}
+
+/*portfolio part responsive code end*/
+
+/*about part responsive code start*/
+
+.about_right_content{
+	margin-left: 80px;
+}
+.about_right_content h1{
+	font-size: 15px;
+}
+.about_right_content p{
+	font-size: 12px;
+}
+
+/*about part responsive code end*/
+
+/*contact part responsive code start*/
+
+.contact_right{
+   margin-left: 30px;
+}
+.contact_right input{
+	width: 300px;
+}
+.contact_right textarea{
+	width: 300px;
+}
+.contact_btn{
+	margin-left: 30px;
+}
+
+/*contact part responsive code end*/
+
+
+
+}
+
+/*// Large devices (desktops, 992px and up)*/
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+/*other enterprise part responsive code start*/
+
+.other_content p{
+	font-size: 12px;
+}
+.other_right img{
+	height: 600px;
+}
+
+/*other enterprise part responsive code end*/
+
+/*portfolio part responsive code start*/
+
+.portfolio_content p{
+	font-size: 13.4px;
+}
+.port_image img{
+	margin-left: -70px;
+}
+
+/*portfolio part responsive code end*/
+
+/*about part responsive code start*/
+
+.about_right_content{
+	margin-left: 50px;
+}
+
+/*about part responsive code end*/
+
+
+
+
+}
+
+/*// X-Large devices (large desktops, 1200px and up)*/
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+
+
+
+
+
+}
+
+/*// XX-Large devices (larger desktops, 1400px and up)*/
+
+@media (min-width: 1400px) and (max-width: px) {...}

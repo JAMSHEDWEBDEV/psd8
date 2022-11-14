@@ -1,0 +1,430 @@
+*{
+	margin: 0;
+	padding: 0;
+	outline: 0;
+}
+a{
+	text-decoration: none;
+}
+ul,ol{
+	list-style: none;
+}
+.navbar{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+}
+.navbar img{
+	margin-top: 10px;
+}
+.navbar-nav .nav-item .nav-link{
+	padding: 10px 20px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	margin-top: 30px;
+	text-transform: uppercase;
+	transition: all linear .4s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+	color: deepskyblue;
+	transition: all linear .4s;
+}
+
+/*banner part css start*/
+
+#banner{
+	background: url(../images/banner_image.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner_overlay{
+	background: rgba(0, 0, 0, 0.7);
+	padding: 200px 0 150px;
+}
+.banner_content{
+	text-align: center;
+}
+.banner_content h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 50px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+}
+.banner_content p{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	color: #838282;
+	margin-top: 70px;
+}
+
+/*banner part css end*/
+
+/*service part css start*/
+
+.service_heading h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 100px 0 50px;
+}
+.service_icon{
+	text-align: center;
+}
+.service_icon img{
+	margin: 0 0 30px;
+}
+.service_content{
+	text-align: center;
+}
+.service_content h1{
+    font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	text-transform: uppercase;
+}
+.service_content p{
+    font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #888888;
+	margin-bottom: 100px;
+}
+
+/*other enterprise part css start*/
+
+#other_enterprise{
+   background: #f7f7f7;
+   margin-bottom: 80px;
+}
+.other_left{
+	margin-left: 120px;
+}
+.other_left h1{
+   font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+	margin-top: 100px;
+}
+.other_left p{
+    font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #888888;
+}
+.other_icon{
+	margin-left: 110px;
+}
+.other_icon i{
+	margin-bottom: 70px;
+	color: #929292;
+	font-size: 30px;
+}
+.other_content{
+	margin-left: 120px;
+	text-align: left;
+}
+.other_content h1{
+     font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: black;
+	text-transform: uppercase;
+}
+.other_content p{
+    font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #888888;
+}
+.other_btn{
+	margin: 40px 0 0 130px;
+}
+.other_btn button{
+	height: 50px;
+	width: 150px;
+	border:1px solid #ceeefa;
+	background: white;
+	border-radius:50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+	transition: all linear .4s;
+}
+.other_btn button:hover{
+	border: 1px solid deepskyblue;
+	transition: all linear .4s;
+	color: sienna;
+}
+/*other enterprise part css end*/
+
+/*service part css end*/
+
+/*portfolio part css start*/
+
+.portfolio_content{
+	background: url(../images/port_background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.portfolio_heading h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+	margin-top: 60px;
+}
+.portfolio_heading p{
+	 font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #888888;
+}
+.portfolio_content h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	text-transform: uppercase;
+}
+.portfolio_content p{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #888888;
+}
+.port_icon i{
+	margin-bottom: 60px;
+	font-size: 25px;
+	color: #929292;
+}
+
+/*portfolio part css end*/
+
+/*about part css start*/
+
+.about_heading h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+	text-align: center;
+	margin: 80px 0;
+}
+.about_content h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: black;
+	text-transform: uppercase;
+	text-align: right;
+}
+.about_content p{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #888888;
+	text-align: right;
+}
+.about_right_content h1{
+	text-align: left;
+}
+.about_right_content p{
+	text-align: left;
+}
+.about_content{
+	margin-top: 25px;
+}
+.about_image{
+	margin-bottom: 80px;
+}
+
+/*about part css end*/
+
+/*team part css start*/
+
+
+#team{
+	background: #f7f7f7;
+}
+.team_heading{
+	text-align: center;
+	margin: 100px 0;
+}
+.team_heading h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+}
+.team_box{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	background: black;
+	border: none;
+	margin: 0 auto;
+}
+.team_content{
+	text-align: center;
+	margin: 20px 0;
+}
+.team_content h1{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 700;
+	color: black;
+	text-transform: uppercase;
+}
+.team_content p{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: #888888;
+}
+.team_icon{
+	text-align: center;
+}
+.team_icon i{
+	height: 50px;
+	width: 50px;
+	background: black;
+	color: white;
+	border: none;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 50px;
+	font-size: 20px;
+	transition: all linear 5s;
+}
+.team_icon i:hover{
+	background-color: steelblue;
+	color: black;
+	transition: all linear .4s;
+}
+.team_paragraph p{
+	text-align: center;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: #888888;
+	margin: 50px 0 80px;
+}
+
+/*team part css end*/
+
+
+
+/*contact part css start*/
+
+
+#contact{
+	background: #111111;
+}
+.contact_heading{
+	margin-top: 100px;
+
+}
+.contact_heading h1{
+    font-family: 'Montserrat', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	color: white;
+	text-transform: uppercase;
+}
+.contact_heading p{
+    font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+}
+.contact_icon i{
+	margin-bottom: 20px;
+	font-size: 20px;
+	color: white;
+	transition: all linear .4s;
+}
+.contact_icon i:hover{
+	color: blueviolet;
+	transition: all linear .4s;
+}
+.contact_content p{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+}
+.contact_right{
+	margin-top: 100px;
+}
+.contact_right input{
+	height: 50px;
+	width: 450px;
+	padding: 0 15px;
+}
+.contact_right textarea{
+	width: 450px;
+	padding: 0 15px;
+	color: #bbbbbb;
+}
+.contact_btn button{
+	height: 50px;
+	width: 180px;
+	border: none;
+	background: #35c2f8;
+	border-radius: 50px;
+	margin: 15px 0 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	color: white;
+	text-transform: uppercase;
+	transition: all linear .4s;
+}
+.contact_btn button:hover{
+	background-color: ghostwhite;
+	color: indigo;
+	transition: all linear .4s;
+}
+hr{
+	color: white;
+	margin: 0;
+}
+
+/*contact part css end*/
+
+
+
+/*footer part css start*/
+
+#footer{
+	background:#111111;
+}
+.footer_content p{
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	text-align: center;
+	padding: 20px 0 10px;
+}
+
+/*footer part css end*/
+
